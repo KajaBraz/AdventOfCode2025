@@ -59,10 +59,11 @@ if __name__ == '__main__':
     sample = parse_input('sample_input.txt')
     my_input = parse_input('input.txt')
 
-    example_1 = solve_part_1_brute_force(sample)
-    part_1 = solve_part_1_brute_force(my_input)
+    example_1 = solve_part_1(sample)
+    part_1 = solve_part_1(my_input)
     print(f'Part 1:\tExample: {example_1} | Solution: {part_1}')
 
     example_2 = solve_part_2(sample)
     part_2 = solve_part_2(my_input)
     print(f'Part 2:\tExample: {example_2} | Solution: {part_2}')
+
